@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../TradeFlow.Domain/TradeFlow.Domain.csproj" />
+    <ProjectReference Include="../TradeFlow.MatchingEngine/TradeFlow.MatchingEngine.csproj" />
+    <ProjectReference Include="../TradeFlow.Risk/TradeFlow.Risk.csproj" />
+  </ItemGroup>
+</Project>

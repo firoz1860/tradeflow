@@ -1,0 +1,78 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.Domain", "src\TradeFlow.Domain\TradeFlow.Domain.csproj", "{A70F327E-EF2E-43EE-844D-446821F9C9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.MatchingEngine", "src\TradeFlow.MatchingEngine\TradeFlow.MatchingEngine.csproj", "{B70F327E-EF2E-43EE-844D-446821F9C9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.Risk", "src\TradeFlow.Risk\TradeFlow.Risk.csproj", "{C70F327E-EF2E-43EE-844D-446821F9C9F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.Application", "src\TradeFlow.Application\TradeFlow.Application.csproj", "{D70F327E-EF2E-43EE-844D-446821F9C9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.Contracts", "src\TradeFlow.Contracts\TradeFlow.Contracts.csproj", "{E70F327E-EF2E-43EE-844D-446821F9C9F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.Infrastructure", "src\TradeFlow.Infrastructure\TradeFlow.Infrastructure.csproj", "{F70F327E-EF2E-43EE-844D-446821F9C9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.Api", "src\TradeFlow.Api\TradeFlow.Api.csproj", "{170F327E-EF2E-43EE-844D-446821F9C9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.MatchingEngine.Tests", "tests\TradeFlow.MatchingEngine.Tests\TradeFlow.MatchingEngine.Tests.csproj", "{270F327E-EF2E-43EE-844D-446821F9C9F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.Risk.Tests", "tests\TradeFlow.Risk.Tests\TradeFlow.Risk.Tests.csproj", "{370F327E-EF2E-43EE-844D-446821F9C9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.Application.Tests", "tests\TradeFlow.Application.Tests\TradeFlow.Application.Tests.csproj", "{470F327E-EF2E-43EE-844D-446821F9CA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeFlow.IntegrationTests", "tests\TradeFlow.IntegrationTests\TradeFlow.IntegrationTests.csproj", "{570F327E-EF2E-43EE-844D-446821F9CA01}"
+EndProject
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+    {A70F327E-EF2E-43EE-844D-446821F9C9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {A70F327E-EF2E-43EE-844D-446821F9C9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {B70F327E-EF2E-43EE-844D-446821F9C9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {B70F327E-EF2E-43EE-844D-446821F9C9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {C70F327E-EF2E-43EE-844D-446821F9C9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {C70F327E-EF2E-43EE-844D-446821F9C9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D70F327E-EF2E-43EE-844D-446821F9C9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D70F327E-EF2E-43EE-844D-446821F9C9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {E70F327E-EF2E-43EE-844D-446821F9C9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {E70F327E-EF2E-43EE-844D-446821F9C9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {F70F327E-EF2E-43EE-844D-446821F9C9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {F70F327E-EF2E-43EE-844D-446821F9C9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {170F327E-EF2E-43EE-844D-446821F9C9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {170F327E-EF2E-43EE-844D-446821F9C9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {A70F327E-EF2E-43EE-844D-446821F9C9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {A70F327E-EF2E-43EE-844D-446821F9C9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+    {B70F327E-EF2E-43EE-844D-446821F9C9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {B70F327E-EF2E-43EE-844D-446821F9C9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+    {C70F327E-EF2E-43EE-844D-446821F9C9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {C70F327E-EF2E-43EE-844D-446821F9C9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+    {D70F327E-EF2E-43EE-844D-446821F9C9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D70F327E-EF2E-43EE-844D-446821F9C9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+    {E70F327E-EF2E-43EE-844D-446821F9C9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {E70F327E-EF2E-43EE-844D-446821F9C9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+    {F70F327E-EF2E-43EE-844D-446821F9C9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {F70F327E-EF2E-43EE-844D-446821F9C9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+    {170F327E-EF2E-43EE-844D-446821F9C9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {170F327E-EF2E-43EE-844D-446821F9C9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+    {270F327E-EF2E-43EE-844D-446821F9C9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {270F327E-EF2E-43EE-844D-446821F9C9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {270F327E-EF2E-43EE-844D-446821F9C9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {270F327E-EF2E-43EE-844D-446821F9C9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+    {370F327E-EF2E-43EE-844D-446821F9C9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {370F327E-EF2E-43EE-844D-446821F9C9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {370F327E-EF2E-43EE-844D-446821F9C9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {370F327E-EF2E-43EE-844D-446821F9C9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+    {470F327E-EF2E-43EE-844D-446821F9CA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {470F327E-EF2E-43EE-844D-446821F9CA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {470F327E-EF2E-43EE-844D-446821F9CA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {470F327E-EF2E-43EE-844D-446821F9CA00}.Release|Any CPU.Build.0 = Release|Any CPU
+    {570F327E-EF2E-43EE-844D-446821F9CA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {570F327E-EF2E-43EE-844D-446821F9CA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {570F327E-EF2E-43EE-844D-446821F9CA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {570F327E-EF2E-43EE-844D-446821F9CA01}.Release|Any CPU.Build.0 = Release|Any CPU
+  EndGlobalSection
+EndGlobal

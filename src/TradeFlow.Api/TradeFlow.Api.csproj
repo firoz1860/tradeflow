@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="../TradeFlow.Domain/TradeFlow.Domain.csproj" />
+    <ProjectReference Include="../TradeFlow.Application/TradeFlow.Application.csproj" />
+    <ProjectReference Include="../TradeFlow.MatchingEngine/TradeFlow.MatchingEngine.csproj" />
+    <ProjectReference Include="../TradeFlow.Risk/TradeFlow.Risk.csproj" />
+    <ProjectReference Include="../TradeFlow.Infrastructure/TradeFlow.Infrastructure.csproj" />
+    <ProjectReference Include="../TradeFlow.Contracts/TradeFlow.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.4" />
+  </ItemGroup>
+</Project>
