@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="TradeFlow">
+  <defs>
+    <linearGradient id="tf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#57e6b6"/>
+      <stop offset="1" stop-color="#22b487"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#tf)"/>
+  <g fill="none" stroke="#052117" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 22 L13 15 L18 19 L25.5 10.5"/>
+    <path d="M25.5 10.5 L20.5 10.7 M25.5 10.5 L25.3 15.5"/>
+  </g>
+  <circle cx="6" cy="22" r="1.7" fill="#052117"/>
+</svg>
